@@ -1,6 +1,6 @@
 #Ing. Edison Meneses MSc.
 #Ingeniero en Sistemas de Información
-#Magister en Sistemas de Información mensión inteligencia de negocios y analítica de datos masivos
+#Magister en Sistemas de Información Mención en Inteligencia de Negocios y Analítica Datos Masivos
 #tutorias@emenesesdevelopers.com
 
 #Ejercicio de funciones
