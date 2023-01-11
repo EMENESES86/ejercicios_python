@@ -1,7 +1,13 @@
+#Ing. Edison Meneses MSc.
+#Ingeniero en Sistemas de Información
+#Magister en Sistemas de Información mensión inteligencia de negocios y analítica de datos masivos
+#tutorias@emenesesdevelopers.com
+
+
 #Un diccionario es una colección de pares formados por una clave y un valor asociado a la clave.
 
 #---------------------------EJEMPLO-----------------------------
-# a = {'nombre':'EDISON', 'carrera': 'SOFTWARE', 'email':'emeneses@emenesesdevelopers.com','año':2023}
+# a = {'nombre':'EDISON', 'carrera': 'SOFTWARE', 'email':'tutorias@emenesesdevelopers.com','año':2023}
 
 # print("****************************")
 # print(a['nombre'])
@@ -16,7 +22,7 @@
 
 
 #---------------------------EJEMPLO-----------------------------
-# a = {'nombre':'EDISON', 'carrera': 'SOFTWARE', 'email':'emeneses@emenesesdevelopers.com','año':2023}
+# a = {'nombre':'EDISON', 'carrera': 'SOFTWARE', 'email':'tutorias@emenesesdevelopers.com','año':2023}
 # print(len(a))
 # print(min(a))#Devuelve la minima clave de un diccionario siempre y cuando sean comparables
 # print(a.keys())#Devuelve las claves de un diccionario
@@ -24,7 +30,7 @@
 # print(a.items())#Devuele los pares de clave-valor de un diccionario
 
 #---------------------------EJEMPLO-----------------------------
-# a = {'nombre':'EDISON', 'carrera': 'SOFTWARE', 'email':'emeneses@emenesesdevelopers.com','año':2023}
+# a = {'nombre':'EDISON', 'carrera': 'SOFTWARE', 'email':'tutorias@emenesesdevelopers.com','año':2023}
 # a['universidad']='ISUS' #Agrega una clave-valor al diccionario
 # print(a)
 
@@ -37,7 +43,7 @@
 
 
 #---------------------------EJEMPLO-----------------------------
-# a = {'nombre':'EDISON', 'carrera': 'SOFTWARE', 'email':'emeneses@emenesesdevelopers.com','año':2023}
+# a = {'nombre':'EDISON', 'carrera': 'SOFTWARE', 'email':'tutorias@emenesesdevelopers.com','año':2023}
 # for valor in a:
 #     print(a[valor])
     

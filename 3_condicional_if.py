@@ -1,3 +1,8 @@
+#Ing. Edison Meneses MSc.
+#Ingeniero en Sistemas de Información
+#Magister en Sistemas de Información mensión inteligencia de negocios y analítica de datos masivos
+#tutorias@emenesesdevelopers.com
+
 a = 50
 b = 1
 c = 8

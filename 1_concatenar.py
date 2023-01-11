@@ -1,3 +1,8 @@
+#Ing. Edison Meneses MSc.
+#Ingeniero en Sistemas de Información
+#Magister en Sistemas de Información mensión inteligencia de negocios y analítica de datos masivos
+#tutorias@emenesesdevelopers.com
+
 text1 = "Mi numero"
 text2 = 'favorito es'
 num1 = 20.5

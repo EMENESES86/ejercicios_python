@@ -1,3 +1,9 @@
+#Ing. Edison Meneses MSc.
+#Ingeniero en Sistemas de Información
+#Magister en Sistemas de Información mensión inteligencia de negocios y analítica de datos masivos
+#tutorias@emenesesdevelopers.com
+
+
 #---------------------------EJEMPLO-----------------------------
 # # Acceso a los elementos de una lista
 # a=['E','M','E','N','E','S','E','S']

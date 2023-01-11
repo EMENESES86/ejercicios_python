@@ -1,3 +1,9 @@
+#Ing. Edison Meneses MSc.
+#Ingeniero en Sistemas de Información
+#Magister en Sistemas de Información mensión inteligencia de negocios y analítica de datos masivos
+#tutorias@emenesesdevelopers.com
+
+
 #---------------------------EJEMPLO-----------------------------
 # my_list = [2, 5,"EMENESES" ,7, 'EMENESES', 1.2, 5]
 # print("Append Agregamos elementos a la lista")

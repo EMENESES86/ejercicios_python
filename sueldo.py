@@ -1,3 +1,9 @@
+#Ing. Edison Meneses MSc.
+#Ingeniero en Sistemas de Información
+#Magister en Sistemas de Información mensión inteligencia de negocios y analítica de datos masivos
+#tutorias@emenesesdevelopers.com
+
+
 # A un trabajador le descuentan de su sueldo el 10%, si su sueldo es menor o igual a 1000. 
 # por encima de 1000 y hasta 2000 el 5% del adicional, 
 # y por encima de 2000 el 3% del adicional. 

@@ -1,3 +1,9 @@
+#Ing. Edison Meneses MSc.
+#Ingeniero en Sistemas de Información
+#Magister en Sistemas de Información mensión inteligencia de negocios y analítica de datos masivos
+#tutorias@emenesesdevelopers.com
+
+
 #Realizar un selector para operaciónes aritméticas
 #1. Realizar un menú con las operaciones aritméticas
 #2. Seleccionar por el menú que operación voy a realizar, utilizando ingreso por teclado
