@@ -1,0 +1,11 @@
+#1. Crea un archivo llamado "operaciones.py" en tu directorio de trabajo. En este archivo, escribe la función que deseas usar en otro lugar.
+# def suma(a, b):
+#     return a + b
+
+#2. Crea un nuevo archivo llamado "principal.py" en el mismo directorio. En este archivo, escribe el código que utilizará la función importada.
+
+# from operaciones import suma
+# resultado = suma(3, 4)
+# print(resultado) # debería imprimir 7
+
+#3. Ejecuta el archivo principal.py 
