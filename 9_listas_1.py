@@ -76,7 +76,52 @@
 #     reverseCharList.append(b.pop())
 #     print(reverseCharList)
 
+#---------------------------EJEMPLO-----------------------------
+# print("\nEjemplo ciclo for con lista")
+# my_list = ["apple", "banana", "cherry"]
+# for index, item in enumerate(my_list):
+#     print(index, item)
 
 
 
+#---------------------------EJEMPLO-----------------------------
+# print("Obtener la suma de los números pares en una lista:")
+# my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# sum_of_evens = 0
+# for item in my_list:
+#     if item % 2 == 0:
+#         sum_of_evens += item
+# print(sum_of_evens)
+
+#---------------------------EJEMPLO-----------------------------
+# print("Obtener una nueva lista con los elementos de otra lista elevados al cuadrado")
+# my_list = [1, 2, 3, 4, 5]
+# squared_list = [item**2 for item in my_list]
+# print(squared_list)
+
+#---------------------------EJEMPLO-----------------------------
+# print("Determinar si un número está en una lista")
+# my_list = [1, 2, 3, 4, 5]
+# number_to_find = 3
+# found = False
+# for item in my_list:
+#     if item == number_to_find:
+#         found = True
+#         break
+# if found:
+#     print(f'{number_to_find} esta en la lista')
+# else:
+#     print(f'{number_to_find} no esta en la lista')
+
+#---------------------------EJEMPLO-----------------------------
+# print("Determinar el mayor y el menor elemento en una lista")
+# my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# min_item = my_list[0]
+# max_item = my_list[0]
+# for item in my_list:
+#     if item < min_item:
+#         min_item = item
+#     if item > max_item:
+#         max_item = item
+# print(f'menor: {min_item}, mayor: {max_item}')
 
