@@ -3,6 +3,13 @@
 #Magister en Sistemas de Información Mención en Inteligencia de Negocios y Analítica Datos Masivos
 #tutorias@emenesesdevelopers.com
 
+#---------------------------EJEMPLO-----------------------------
+# print("Separa una cadena de caracteres y agregar en una lista")
+# nombre=input("Ingrese su nombre: ")
+# lista=[]
+# for item in nombre:
+#     lista.append(item)
+# print(lista)
 
 #---------------------------EJEMPLO-----------------------------
 # my_list = [2, 5,"EMENESES" ,7, 'EMENESES', 1.2, 5]
