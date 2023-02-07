@@ -46,7 +46,7 @@
 # area_triangulo(4,5)#Ejemplo 1 con diferentes datos de base y altura
 # print("\n")
 
-#---------------------------EJEMPLO-----------------------------
+# ---------------------------EJEMPLO-----------------------------
 # print("***Argumentos por defecto***")
 # def welcome(nombre, lenguaje = 'Python'):
 #     print('¡Bienvenido a', lenguaje, nombre + '!')
