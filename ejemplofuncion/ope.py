@@ -1,11 +1,11 @@
 def suma():
-    sum = 5+5
-    return sum
+    suma1=5+5
+    return suma1
 
 def resta():
-    rest = 5-10
+    rest=5-5
     return rest
 
 def multi():
-    mult = 5*11
+    mult=5*5
     return mult

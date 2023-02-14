@@ -1,15 +1,11 @@
-# from opesuma import suma
-# from operesta import resta
-
-from operaciones import suma,resta,multi
-
-mult1=multi()
-print('la mult',mult1)
+from opesuma import suma
+from operesta import resta
+from opemulti import multi
 
 sum=suma()
 rest=resta()
 mult=multi()
-print(mult)
-print(sum)
-print(rest)
 
+print('la sumas es ',sum)
+print('la resta es ',rest)
+print('la multi ',mult)
