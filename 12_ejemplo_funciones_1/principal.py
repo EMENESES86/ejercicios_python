@@ -1,4 +1,4 @@
-from operaciones import suma
+from operaciones import opesuma
 
-resultado = suma(3, 4)
+resultado = opesuma(3, 4)
 print(resultado) # debería imprimir 7
