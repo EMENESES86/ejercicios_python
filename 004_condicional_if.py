@@ -20,6 +20,16 @@ else:
     print("b>a")
     print(b, "Es mayor que", a)
 
+# print("-----elif------")
+if a>b:
+    print("Verdadero", a , "es >", b)
+elif a==b:
+    print(a, "es igual a ", b)
+elif b>a:
+    print(b, 'es mayor que', a)
+else:
+    print("algo salio mal")
+
 #if compuesto
 if a > b:
     print("a>b")
