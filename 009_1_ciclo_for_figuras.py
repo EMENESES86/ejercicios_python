@@ -4,9 +4,9 @@
 #tutorias@emenesesdevelopers.com
 
 ####################LISTA ACENDENTE#####################
-num  = int(input("ingrese un numero: "))
-for i in range(0,num+1,1):
-    print(i)
+# num  = int(input("ingrese un numero: "))
+# for i in range(0,num+1,1):
+#     print(i)
 
 # ingrese un numero: 5
 # 0
