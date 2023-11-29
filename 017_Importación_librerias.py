@@ -53,30 +53,30 @@
 # 5. Ejercicio para trabajar con la biblioteca requests
 # Vamos a realizar una solicitud GET a la API de JSONPlaceholder para obtener datos de usuarios. Aquí tienes un ejemplo:
 # https://jsonplaceholder.typicode.com/users
-import requests
+# import requests
 
-url = 'https://jsonplaceholder.typicode.com/users'
+# url = 'https://jsonplaceholder.typicode.com/users'
 
-try:
-    respuesta = requests.get(url)
+# try:
+#     respuesta = requests.get(url)
 
-    if respuesta.status_code == 200:
-        datos_usuarios = respuesta.json()
+#     if respuesta.status_code == 200:
+#         datos_usuarios = respuesta.json()
 
-        print("Direcciones de los usuarios:")
-        for usuario in datos_usuarios:
-            direccion = usuario['address']
-            print(f"Usuario: {usuario['name']}")
-            print(f"Email: {usuario['email']}")
-            print(f"Calle: {direccion['street']}")
-            print(f"Suite: {direccion['suite']}")
-            print(f"Ciudad: {direccion['city']}")
-            print(f"Código Postal: {direccion['zipcode']}")
-            print(f"Coordenadas (Latitud, Longitud): {direccion['geo']['lat']}, {direccion['geo']['lng']}")
-            print("\n")
-    else:
-        print(f"Error al obtener datos: Código de estado {respuesta.status_code}")
+#         print("Direcciones de los usuarios:")
+#         for usuario in datos_usuarios:
+#             direccion = usuario['address']
+#             print(f"Usuario: {usuario['name']}")
+#             print(f"Email: {usuario['email']}")
+#             print(f"Calle: {direccion['street']}")
+#             print(f"Suite: {direccion['suite']}")
+#             print(f"Ciudad: {direccion['city']}")
+#             print(f"Código Postal: {direccion['zipcode']}")
+#             print(f"Coordenadas (Latitud, Longitud): {direccion['geo']['lat']}, {direccion['geo']['lng']}")
+#             print("\n")
+#     else:
+#         print(f"Error al obtener datos: Código de estado {respuesta.status_code}")
 
-except requests.RequestException as e:
-    print(f"Error de conexión: {e}")
+# except requests.RequestException as e:
+#     print(f"Error de conexión: {e}")
 
