@@ -34,6 +34,14 @@
 #     i+=1
 # print(list)
 
+# my_list=[2,2,2,2,2,2,5,6,3,2,7,2]
+# longitud=len(my_list)
+# print("La longitud de la lista es: ",longitud)
+# i=0
+# while 2 in my_list:
+#     my_list.remove(2)
+#     i+=1
+# print(my_list)
 
 # ---------------------------EJEMPLO-----------------------------
 # print("\n*** La posicion del elemento EM en la lista")
