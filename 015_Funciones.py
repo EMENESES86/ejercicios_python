@@ -132,4 +132,118 @@
 #     print("El área",c)
 # cuadrado()
 
+#---------------------------EJEMPLO-----------------------------
+#Una clase en Python es un plano para crear objetos. Proporciona una estructura que define las propiedades y comportamientos de los objetos que se van a crear a partir de ella.
+# El método __init__ generalmente se centran en la creación de clases y la inicialización de atributos al momento de instanciar un objeto.
+
+# class Persona:
+#     def __init__(self, nombre, edad, ocupacion):
+#         self.nombre = nombre
+#         self.edad = edad
+#         self.ocupacion = ocupacion
+
+#     def descripcion(self):
+#         return f"Nombre: {self.nombre}, Edad: {self.edad}, Ocupación: {self.ocupacion}"
+
+# # Creamos objetos de tipo Persona
+# persona1 = Persona("Juan", 30, "Ingeniero")
+# persona2 = Persona("María", 25, "Doctora")
+
+# # Mostramos la descripción de cada persona
+# print(persona1.descripcion())
+# print(persona2.descripcion())
+
+#---------------------------EJEMPLO-----------------------------
+# class Persona:
+#     def __init__(self, nombre, edad, ocupacion):
+#         self.nombre = nombre
+#         self.edad = edad
+#         self.ocupacion = ocupacion
+
+#     def descripcion(self):
+#         return f"Nombre: {self.nombre}, Edad: {self.edad}, Ocupación: {self.ocupacion}"
+
+# # Pedimos al usuario que ingrese información para crear objetos Persona
+# nombre = input("Ingresa tu nombre: ")
+# edad = int(input("Ingresa tu edad: "))
+# ocupacion = input("Ingresa tu ocupación: ")
+
+# # Creamos un objeto de tipo Persona con la información proporcionada por el usuario
+# nueva_persona = Persona(nombre, edad, ocupacion)
+
+# # Mostramos la descripción de la persona creada
+# print("\nInformación de la persona creada:")
+# print(nueva_persona.descripcion())
+
+
+#---------------------------EJEMPLO-----------------------------
+# Este programa permite:
+
+# Agregar personas a una lista.
+# Mostrar todas las personas en la lista.
+# Buscar una persona por su nombre en la lista.
+# Salir del programa.
+class Persona:
+    def __init__(self, nombre, edad, ocupacion):
+        self.nombre = nombre
+        self.edad = edad
+        self.ocupacion = ocupacion
+
+    def descripcion(self):
+        return f"Nombre: {self.nombre}, Edad: {self.edad}, Ocupación: {self.ocupacion}"
+
+
+def mostrar_menu():
+    print("\n--- Gestión de Personas ---")
+    print("1. Agregar persona")
+    print("2. Mostrar todas las personas")
+    print("3. Buscar persona por nombre")
+    print("4. Salir")
+
+
+personas = []
+
+while True:
+    mostrar_menu()
+
+    opcion = input("Seleccione una opción: ")
+
+    if opcion == "1":
+        nombre = input("Ingrese el nombre de la persona: ")
+        edad = int(input("Ingrese la edad de la persona: "))
+        ocupacion = input("Ingrese la ocupación de la persona: ")
+        nueva_persona = Persona(nombre, edad, ocupacion)
+        personas.append(nueva_persona)
+        print(f"La persona '{nombre}' ha sido agregada.")
+
+    elif opcion == "2":
+        if len(personas) > 0:
+            print("\n--- Lista de Personas ---")
+            for persona in personas:
+                print(persona.descripcion())
+        else:
+            print("No hay personas en la lista.")
+
+    elif opcion == "3":
+        if len(personas) > 0:
+            nombre_buscar = input("Ingrese el nombre de la persona a buscar: ")
+            encontrada = False
+            for persona in personas:
+                if persona.nombre.lower() == nombre_buscar.lower():
+                    print("Persona encontrada:")
+                    print(persona.descripcion())
+                    encontrada = True
+                    break
+            if not encontrada:
+                print(f"No se encontró a '{nombre_buscar}' en la lista.")
+        else:
+            print("No hay personas en la lista.")
+
+    elif opcion == "4":
+        print("¡Hasta luego!")
+        break
+
+    else:
+        print("Opción no válida. Por favor, seleccione una opción válida.")
+
 
