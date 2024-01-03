@@ -6,6 +6,8 @@
 # Mostrar información sobre un libro en la biblioteca.
 # Salir del programa.
 # Se utiliza la clase Libro para representar cada libro con atributos como título, autor, género y estado de préstamo. El programa principal utiliza un bucle while y un menú para interactuar con el usuario, permitiendo así realizar diversas operaciones de gestión de la biblioteca.
+
+# __init__ es un método especial en Python que se llama automáticamente cuando se crea una instancia de una clase. Es conocido como el constructor de la clase. Su función principal es inicializar los atributos de la clase cuando se crea un nuevo objeto de esa clase.
 class Libro:
     def __init__(self, titulo, autor, genero):
         self.titulo = titulo
